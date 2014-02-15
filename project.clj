@@ -1,8 +1,8 @@
 (defproject cellular "0.0.1-SNAPSHOT"
       :description "FIXME: write description"
       :dependencies [[org.clojure/clojure "1.5.1"]
-                     [org.clojure/clojurescript "0.0-1847"]
-                     [core.async "0.1.0-SNAPSHOT"]
+                     [org.clojure/clojurescript "0.0-2156"]
+                     [org.clojars.magomimmo/core.async "0.1.0-SNAPSHOT"]
                      [net.mikera/imagez "0.0.3"]
                      [net.mikera/mikera-gui "0.1.0"]
                      [fipp "0.4.0"]]
@@ -29,4 +29,5 @@
                                      ;  :pretty-print true
                                      ;  :optimizations :advanced}}]})
                                      ;  :optimizations :simple}}]})
+                                       :source-map true
                                        :optimizations :none}}]})
